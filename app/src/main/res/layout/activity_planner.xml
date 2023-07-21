@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Planner"
+    android:background="#fff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Events"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_marginTop="40dp"
+        android:background="#3B333333"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="696dp"
+            android:layout_below="@+id/sl_ogon"
+            android:layout_marginTop="30dp"
+
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="KidZone"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Come on over to KidZone where we have something for everyone! You won't find a more family friendly show than ours! Meet Bentley the Bulldog, watch the Red Barn Dog Show, see tanks from Base Borden, and more! There’s something for everyone!"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Show ‘n Shine"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Come and see the nicest rides in Barrie! The Show ‘n Shine is a community car show open to everyone! Look forward to Saturday Tuners and Sunday Muscles!"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Electric Avenue"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Join us at Electric Avenue, the place to be if you love electric mobility! You will see everything from scooters to cars! Not only that but you can ask our industry professionals any questions you have about electrification!"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="EV Test Drives"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Ever wanted to test drive an EV without the pressure of a dealership? Now’s your chance! Come take a test drive with Plug ‘n Drive and a wide selection of vehicles!"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Manufacturer Tents"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Pop over to the Manufacturer tents where you can see some of the coolest vehicles from your favorite manufacturers! "
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="600dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/events"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_marginLeft="30dp"
+
+            android:src="@drawable/event" />
+        <ImageView
+            android:id="@+id/planner"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_marginLeft="30dp"
+
+            android:src="@drawable/redplanner" />
+        <ImageView
+            android:id="@+id/exhibiters"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_marginLeft="30dp"
+
+            android:src="@drawable/exhibiter" />
+        <ImageView
+            android:id="@+id/floor"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_marginLeft="30dp"
+
+            android:src="@drawable/floor" />
+
+    </LinearLayout>
+
+</RelativeLayout>

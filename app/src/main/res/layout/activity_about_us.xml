@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".AboutUs">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="About Us"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_marginTop="30dp"
+        android:background="#3B333333"
+
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="750dp"
+            android:layout_below="@+id/sl_ogon"
+            android:layout_marginTop="30dp"
+
+            android:gravity="left"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Welcome to the Georgian Auto Show app! Our app is designed to be your one-stop-shop for all things related to auto shows in Georgia and beyond.
+
+At Georgian Auto Show, we are passionate about cars, and we know that you are too. That's why we created this app to provide you with all the information you need to stay up-to-date on the latest auto shows, events, and news.
+
+Our team is made up of car enthusiasts who understand the importance of having a platform that caters to the auto industry. Our mission is to create a community of car lovers who can connect, share their passion, and stay informed about the latest trends in the industry.
+
+We are committed to providing you with the best user experience possible. Our app is user-friendly, intuitive, and easy to navigate. We have also included features such as event calendars, location maps, and social sharing options to enhance your experience.
+
+If you have any questions or feedback about our app, please do not hesitate to reach out to us. We value your input and are always looking for ways to improve our app to better serve our community.
+
+Thank you for choosing the Georgian Auto Show app, and we hope you enjoy using it as much as we enjoyed creating it!"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="600dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/black"
+            android:text="Next"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
